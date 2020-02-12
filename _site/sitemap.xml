@@ -41,6 +41,13 @@
     </url>
     
     <url>
+        <loc>https://support.brightcove.com/</loc>
+        <lastmod>2020-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://support.brightcove.com/getting-started/</loc>
         <lastmod>2020-02-12</lastmod>
         <changefreq>daily</changefreq>
@@ -55,14 +62,14 @@
     </url>
     
     <url>
-        <loc>https://support.brightcove.com/</loc>
+        <loc>https://support.brightcove.com/references/</loc>
         <lastmod>2020-02-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://support.brightcove.com/references/</loc>
+        <loc>https://support.brightcove.com/general/known-issues-studio-brightcove-player-and-apis.html</loc>
         <lastmod>2020-02-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
