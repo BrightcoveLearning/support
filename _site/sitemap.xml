@@ -13,104 +13,6 @@
     </url>
     
     <url>
-        <loc>https://support.brightcove.com/general/base-64-encoding-tool.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/brightcove-forum-groups-and-email-lists.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/brightcove-open-source-projects.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/brightcove-product-overview.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/concepts-api-tester.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/concepts-cors.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/concepts-introducing-json.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/concepts-javascript-debugging-basics.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/concepts-javascript-module-design-pattern.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/concepts-set-curl.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/concepts-testing-tools-brightcove-apis.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/concepts-using-javascript-promises.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/date-converter.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/debugging-mobile-devices.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>https://support.brightcove.com/assets/js/feedback.js</loc>
         <lastmod>2020-03-02</lastmod>
         <changefreq>daily</changefreq>
@@ -132,13 +34,6 @@
     </url>
     
     <url>
-        <loc>https://support.brightcove.com/general/known-issues-studio-brightcove-player-and-apis.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>https://support.brightcove.com/assets/css/local.css</loc>
         <lastmod>2020-03-02</lastmod>
         <changefreq>daily</changefreq>
@@ -154,34 +49,6 @@
     
     <url>
         <loc>https://support.brightcove.com/sitemap.xml</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/string-encoder.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/use-insomnia-api-requests.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/use-postman-api-requests.html</loc>
-        <lastmod>2020-03-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://support.brightcove.com/general/using-wireshark-track-network-traffic-debugging.html</loc>
         <lastmod>2020-03-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
