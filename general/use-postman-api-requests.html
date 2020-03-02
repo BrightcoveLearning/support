@@ -23,7 +23,7 @@ parent: General Information
     <h2 id="usingPostman">Using <span class="notranslate">Postman</span></h2>
     <p>Once you have your client credentials, you are ready to start using <span class="notranslate">Postman</span>. The steps below will walk you through making some <strong>Player Management API</strong> requests using <span class="notranslate">Postman</span>.</p>
     <h3>Setting up <span class="notranslate">Postman</span> to get access tokens</h3>
-    <ol class="bcls-tasklist">
+    <ol class="bcls-tasklist-restart">
       <li class="language-editable">Launch the <span class="notranslate">Postman</span> app.</li>
       <li class="language-editable">Create a new request:
         <figure class="bcls-figure"><img class="bcls-image" alt="Create New Request" src="//learning-services-media.brightcove.com/doc-assets/node/17919-use-postman-http-requests/node17919-create-new-request.png" />
@@ -105,7 +105,7 @@ parent: General Information
     <h2 id="getRequest">Send <code>GET</code> request</h2>
     <p>Now we are ready to make API requests.</p>
     <h3>Make a <code>GET</code> request</h3>
-    <ol class="bcls-tasklist">
+    <ol class="bcls-tasklist-restart">
       <li class="language-editable">Now enter the following URL into the <strong>Enter request URL</strong> field, substituting your account id for {account_id}:
         <pre class="line-numbers">
 	<code class="notranslate language-http">https://players.api.brightcove.com/v2/accounts/<span class="bcls-input">YOUR_ACCOUNT_ID</span>/players
@@ -132,7 +132,7 @@ parent: General Information
     <h2 id="postRequest">Send <code>POST</code> request</h2>
     <p>Now we will send a <code>POST</code> request with some data. In this case we will create a new player using the Player Management API.</p>
     <h3>Make a <code>POST</code> request</h3>
-    <ol class="bcls-tasklist">
+    <ol class="bcls-tasklist-restart">
       <li class="language-editable">Duplicate your Get Players request:
         <figure class="bcls-figure"><img class="bcls-image" alt="Duplicate Request" src="//learning-services-media.brightcove.com/doc-assets/node/17919-use-postman-http-requests/node17919-duplicate-request.png" />
           <figcaption class="bcls-caption--image">Duplicate Request</figcaption>
@@ -181,7 +181,7 @@ parent: General Information
     <h2 id="environmentVariables">Environment variables</h2>
     <p>Although you can create client credentials for multiple accounts and any combination of API operations, you may wish to maintain greater security by limiting the scope of your credentials to a single account and API (or even specific API operations). If so, you can take advantage of <span class="notranslate">Postman</span>'s <strong>environment variables</strong> to simplify testing requests across multiple accounts and APIs. The key is to set up environments corresponding to each set of client credentials that you use.</p>
     <p>Below are the steps for creating and using environment variables for the <code>client_id </code> and <code>client_secret </code>.</p>
-    <ol class="bcls-tasklist">
+    <ol class="bcls-tasklist-restart">
       <li class="language-editable">Click the gear menu in the top-right <span class="notranslate">Postman</span> and select <strong>Manage Environments.</strong>
         <figure class="bcls-figure"><img class="bcls-image" alt="Environments Menu" src="//learning-services-media.brightcove.com/doc-assets/video-cloud-apis/general-information/postman/postman-environments-menu.png" />
           <figcaption class="bcls-caption--image">Environments Menu</figcaption>
@@ -217,7 +217,7 @@ parent: General Information
     <p>As of version 6.7.4, <span class="notranslate">Postman</span> supports the import of OpenAPI specs to create request collections. Since Brightcove's platform API References are based on the OpenAPI spec, you can use this feature the generate a full collection of requests for any of the Brightcove APIs.</p>
     <p>In the steps below, we will use the Dynamic Ingest API as an example, but the procedure will work for any of the Brightcove platform APIs (<strong>not</strong> for Player API or the mobiles SDKs, because Postman only supports REST APIs).</p>
     <h3>Steps</h3>
-    <ol class="bcls-tasklist">
+    <ol class="bcls-tasklist-restart">
       <li class="language-editable">In your browser, go to <a href="https://docs.brightcove.com/dynamic-ingest-api/v1/doc/index.html">Dynamic Ingest API Reference</a></li>
       <li class="language-editable">Click on the <strong class="notranslate">Download</strong> button under the title to download the <span class="notranslate">OpenAPI specification</span> for the API:
         <figure class="bcls-figure"><img class="bcls-image" alt="Download OpenAPI Specification" src="https://learning-services-media.brightcove.com/doc-assets/node/17919-use-postman-http-requests/openapi-spec-download.png" />

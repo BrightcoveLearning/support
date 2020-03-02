@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- remember to remove the following line when the site is ready to go live -->
   <!-- <meta name="robots" content="noindex" /> -->
-  <title>404 - Page Not Found</title>
+  <title>Concepts: Set up cURL</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -85,7 +85,9 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       
       
       
-      <li class="breadcrumb-item active" aria-current="page">404 - Page Not Found</li>
+      <li class="breadcrumb-item"><a href="/general/">General Information</a></li>
+      
+      <li class="breadcrumb-item active" aria-current="page">Concepts: Set up cURL</li>
     </ol>
   </nav>
 </header>
@@ -578,9 +580,41 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 </div>
 
 <article class="bcls-article">
-  <h1>404 - Page Not Found</h1>
-  <p>Sorry, the page you requested does not exist. Try going to <a href="/">Home page</a> and navigating to it or searching for it.</p>
-  <p>For additional help, <a href="mailto:training@brightcove.com">email us</a>.</p>
+  <h1>Concepts: Set up cURL</h1>
+  <summary>In this topic, you will learn about cURL, a tool useful for testing and making API requests. cURL is a command line tool for making HTTP requests. We use cURL in a <a href="/node/17925#bc-ipnav-2">shell script for testing Brightcove API calls</a>. If you are on Mac MacOS or any Unix/Linux system, you already have cURL. If you are on Windows, see instructions below for getting cURL.</summary>
+  <section class="bcls-section">
+    <h2 id="windows" class="notranslate">Windows</h2>
+    <p>If you have <span class="notranslate">Windows</span>, you can download and install cURL as follows.</p>
+    <h3>Installing cURL</h3>
+    <ol>
+      <li>
+        <p>In <span class="notranslate">Windows</span>, create a new folder called <strong>curl</strong> in your C: drive.</p>
+        <p><code>C:curl</code></p>
+      </li>
+      <li>
+        <p>Go to <a href="//cygwin.com/install.html">https://cygwin.com/install.html</a> follow the instructions there, choosing the 32-bit or 64-bit installer according to the system you have. During the install you will be prompted for packages to install. Open the Net package, then check the <strong>curl</strong> option and then finish the installation.</p>
+      </li>
+    </ol>
+    <!-- <aside class="bcls-aside bcls-aside--information">If you need more guidance on setting up curl on <span class="notranslate">Windows</span>, see <a href="https://support.zendesk.com/hc/en-us/articles/203691436-Installing-and-using-cURL#install">this</a> document.</aside> --></section>
+  <section class="bcls-section">
+    <h2 id="testSetup">Test your setup</h2>
+    <p class="language-editable">To run <code>cURL</code> commands, you just type curl (with appropriate flags for the request you want to make) at the Terminal or DOS prompt, and then pressing Return. To make sure cURL is correctly installed, open a Terminal or DOS window, type <code>curl</code> at the prompt, and press Return. You should see a message like this:</p>
+    <pre class="line-numbers">
+<span class="notranslate">
+  <code class="language-bash">curl: try 'curl --help' or 'curl --manual' for more information</code></span></pre>
+  </section>
+  <section class="bcls-section">
+    <h2 id="sendData">Sending Data</h2>
+    <p>If you need to send data with the API request (as in a POST or PATCH request, for example), there are several ways to do it. You can include the data inline or in a separate file. Here is a Player Management API example submitting the data as a separate JSON file:</p>
+    <pre class="line-numbers">
+<span class="notranslate">
+  <code class="language-bash">curl --request POST
+    --url https://players.api.brightcove.com/v2/accounts/57838016001/players
+    --header 'authorization: Bearer <span class="bcls-input">YOUR_ACCESS_TOKEN_HERE</span>'
+    --header 'content-type: application/json'
+    <span class="bcls-highlight">--data <strong>&lt;</strong>player_data/player_config.json</span> </code></span></pre>
+    <aside class="bcls-aside bcls-aside--info">Note the "&lt;" symbol, which sends the file contents. Use this rather than the "@" symbol, which attaches the file as an upload.</aside>
+  </section>
 </article>
 
 <!-- complete bootstrap layout -->
@@ -598,7 +632,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 
 <hr>
 <div class="last-updated">
-  Page last updated on 20 Feb 2020
+  Page last updated on 02 Mar 2020
 </div>
 
 <footer class="bcls-footer" role="contentinfo">
